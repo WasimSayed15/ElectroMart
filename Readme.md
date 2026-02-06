@@ -79,13 +79,13 @@ styles/         → Global styling
 1. Clone the repository:
 
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/Srujan-Jangam/ElectroMart.git
 ```
 
 2. Navigate into the project directory:
 
 ```bash
-cd ecommerce-frontend
+cd ElectroMart
 ```
 
 3. Install dependencies:
