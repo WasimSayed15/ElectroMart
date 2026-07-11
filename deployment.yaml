@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: electromart-deployment
+  labels:
+    app: electromart
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: electromart
+  template:
+    metadata:
+      labels:
+        app: electromart
+    spec:
+      containers:
+      - name: electromart
+        image: your-dockerhub-username/electromart:latest
+        imagePullPolicy: Always
+        ports:
+        - containerPort: 3000
+        env:
+        - name: NODE_ENV
+          value: "production"
