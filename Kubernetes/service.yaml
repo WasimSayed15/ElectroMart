@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: electromart-service
+spec:
+  selector:
+    app: electromart
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+  type: LoadBalancer
