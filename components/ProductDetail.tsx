@@ -10,6 +10,7 @@ interface ProductDetailProps {
 }
 
 export default function ProductDetail({ product, onBack }: ProductDetailProps) {
+  if (!product) return null;
   const { addToCart } = useContext(CartContext);
 
   return (

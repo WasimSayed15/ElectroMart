@@ -6,7 +6,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Products from "@/components/Products";
 import Cart from "@/pages/Cart";
-import ProductDetail from "@/pages/ProductDetail";
+import ProductDetail from "@/components/ProductDetail";
 import Checkout from "@/pages/Checkout";
 import OrderHistory from "@/pages/OrderHistory";
 import AdminPanel from "@/pages/AdminPanel";
